@@ -49,16 +49,16 @@ function CurrentWeather({ Current_weather_data_obj, location_deatils }) {
     ]
 
     let Current_weather_icons = [
-        "public/assets/Weather-icons/temperature.png",
-        "public/assets/Weather-icons/Precipitation.png",
-        "public/assets/Weather-icons/Rain.png",
-        "public/assets/Weather-icons/Humidity.png",
-        "public/assets/Weather-icons/Cloud_cover.png",
-        "public/assets/Weather-icons/Snow-fall.png",
-        "public/assets/Weather-icons/Surface_pressure.png",
-        "public/assets/Weather-icons/Sealevel-pressure.png",
-        "public/assets/Weather-icons/Wind_speed.png",
-        "public/assets/Weather-icons/Wind_direction.png",
+        "/assets/Weather-icons/temperature.png",
+        "/assets/Weather-icons/Precipitation.png",
+        "/assets/Weather-icons/Rain.png",
+        "/assets/Weather-icons/Humidity.png",
+        "/assets/Weather-icons/Cloud_cover.png",
+        "/assets/Weather-icons/Snow-fall.png",
+        "/assets/Weather-icons/Surface_pressure.png",
+        "/assets/Weather-icons/Sealevel-pressure.png",
+        "/assets/Weather-icons/Wind_speed.png",
+        "/assets/Weather-icons/Wind_direction.png",
     ]
 
     let Current_weather_items_elements = []
