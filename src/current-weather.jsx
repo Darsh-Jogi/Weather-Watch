@@ -49,7 +49,7 @@ function CurrentWeather({ Current_weather_data_obj, location_deatils }) {
     ]
 
     let Current_weather_icons = [
-        "./src/assets/Weather-icons/temperature.png",
+        "../src/assets/Weather-icons/temperature.png",
         "./src/assets/Weather-icons/Precipitation.png",
         "./src/assets/Weather-icons/Rain.png",
         "./src/assets/Weather-icons/Humidity.png",
