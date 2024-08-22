@@ -80,13 +80,13 @@ function CurrentWeather({ Current_weather_data_obj, location_deatils }) {
 
     function Display_weather_icon() {
         let weather_icons = [
-            "./src/assets/Weather-icons/rain-cloud.png",
-            "./src/assets/Weather-icons/heavy-rain.png",
-            "./src/assets/Weather-icons/light-rain.png",
-            "./src/assets/Weather-icons/no-rain.png",
-            "./src/assets/Weather-icons/windy-weather.png",
-            "./src/assets/Weather-icons/moderate-rain.png",
-            "./src/assets/Weather-icons/smiling-sun.png",
+            "./assets/Weather-icons/rain-cloud.png",
+            "./assets/Weather-icons/heavy-rain.png",
+            "./assets/Weather-icons/light-rain.png",
+            "./assets/Weather-icons/no-rain.png",
+            "./assets/Weather-icons/windy-weather.png",
+            "./assets/Weather-icons/moderate-rain.png",
+            "./assets/Weather-icons/smiling-sun.png",
         ]
 
         let precipitation_value = Current_weather_data_obj["Location_current_Weather"]["Precipitation_intger"]

@@ -73,7 +73,7 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
     let [elements_array, set_elements_array] = useState([
         <div className="weather-data-item-container">
             <div className="weather-item-with-img">
-                <img src="./src/assets/Weather-icons/temperature.png" alt="" />
+                <img src="./assets/Weather-icons/temperature.png" alt="" />
                 <h3> Temperature </h3>
             </div>
             <div className="live-hourly-data">
@@ -88,7 +88,7 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
         </div>,
         <div className="weather-data-item-container">
             <div className="weather-item-with-img">
-                <img src="./src/assets/Weather-icons/Cloud_cover.png" alt="" />
+                <img src="./assets/Weather-icons/Cloud_cover.png" alt="" />
                 <h3>Cloud Cover</h3>
             </div>
             <div className="live-hourly-data">
@@ -103,7 +103,7 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
         </div>,
         <div className="weather-data-item-container">
             <div className="weather-item-with-img">
-                <img src="./src/assets/Weather-icons/Cloud-cover-high.png" alt="" />
+                <img src="./assets/Weather-icons/Cloud-cover-high.png" alt="" />
                 <h3>Cloud Cover High</h3>
             </div>
             <div className="live-hourly-data">
@@ -118,7 +118,7 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
         </div>,
         <div className="weather-data-item-container">
             <div className="weather-item-with-img">
-                <img src="./src/assets/Weather-icons/dew-point.png" alt="" />
+                <img src="./assets/Weather-icons/dew-point.png" alt="" />
                 <h3>Dew Point</h3>
             </div>
             <div className="live-hourly-data">
@@ -133,7 +133,7 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
         </div>,
         <div className="weather-data-item-container">
             <div className="weather-item-with-img">
-                <img src="./src/assets/Weather-icons/Rain.png" alt="" />
+                <img src="./assets/Weather-icons/Rain.png" alt="" />
                 <h3>Rain</h3>
             </div>
             <div className="live-hourly-data">
@@ -148,7 +148,7 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
         </div>,
         <div className="weather-data-item-container">
             <div className="weather-item-with-img">
-                <img src="./src/assets/Weather-icons/Sealevel-pressure.png" alt="" />
+                <img src="./assets/Weather-icons/Sealevel-pressure.png" alt="" />
                 <h3>Sealevel Pressure</h3>
             </div>
             <div className="live-hourly-data">
@@ -163,7 +163,7 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
         </div>,
         <div className="weather-data-item-container">
             <div className="weather-item-with-img">
-                <img src="./src/assets/Weather-icons/Humidity.png" alt="" />
+                <img src="./assets/Weather-icons/Humidity.png" alt="" />
                 <h3>Relative Humidity</h3>
             </div>
             <div className="live-hourly-data">
@@ -178,7 +178,7 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
         </div>,
         <div className="weather-data-item-container">
             <div className="weather-item-with-img">
-                <img src="./src/assets/Weather-icons/Snow-fall.png" alt="" />
+                <img src="./assets/Weather-icons/Snow-fall.png" alt="" />
                 <h3>Snow fall</h3>
             </div>
             <div className="live-hourly-data">
@@ -193,7 +193,7 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
         </div>,
         <div className="weather-data-item-container">
             <div className="weather-item-with-img">
-                <img src="./src/assets/Weather-icons/Surface_pressure.png" alt="" />
+                <img src="./assets/Weather-icons/Surface_pressure.png" alt="" />
                 <h3>Surface Pressure</h3>
             </div>
             <div className="live-hourly-data">
@@ -208,7 +208,7 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
         </div>,
         <div className="weather-data-item-container">
             <div className="weather-item-with-img">
-                <img src="./src/assets/Weather-icons/Wind_speed.png" alt="" />
+                <img src="./assets/Weather-icons/Wind_speed.png" alt="" />
                 <h3>Wind Speed</h3>
             </div>
             <div className="live-hourly-data">
@@ -223,7 +223,7 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
         </div>,
         <div className="weather-data-item-container">
             <div className="weather-item-with-img">
-                <img src="./src/assets/Weather-icons/Wind_direction.png" alt="" />
+                <img src="./assets/Weather-icons/Wind_direction.png" alt="" />
                 <h3>Wind Direction</h3>
             </div>
             <div className="live-hourly-data">
@@ -240,13 +240,13 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
 
     function Display_weather_icon() {
         let weather_icons = [
-            "./src/assets/Weather-icons/rain-cloud.png",
-            "./src/assets/Weather-icons/heavy-rain.png",
-            "./src/assets/Weather-icons/light-rain.png",
-            "./src/assets/Weather-icons/no-rain.png",
-            "./src/assets/Weather-icons/windy-weather.png",
-            "./src/assets/Weather-icons/moderate-rain.png",
-            "./src/assets/Weather-icons/smiling-sun.png",
+            "./assets/Weather-icons/rain-cloud.png",
+            "./assets/Weather-icons/heavy-rain.png",
+            "./assets/Weather-icons/light-rain.png",
+            "./assets/Weather-icons/no-rain.png",
+            "./assets/Weather-icons/windy-weather.png",
+            "./assets/Weather-icons/moderate-rain.png",
+            "./assets/Weather-icons/smiling-sun.png",
         ]
 
         let precipitation_value = Current_weather_data_obj["Location_current_Weather"]["Precipitation_intger"]
@@ -331,11 +331,11 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
     let Daily_weather_box_main_elements = []
     let All_days = ["Sunday", "Monday", "Tuseday", "Wednesday", "Thursday", "Friday", "Saturday"]
     let Daily_weather_box_icons = [
-        "./src/assets/Weather-icons/temperature.png",
-        "./src/assets/Weather-icons/Precipitation.png",
-        "./src/assets/Weather-icons/Rain.png",
-        "./src/assets/Weather-icons/Snow-fall.png",
-        "./src/assets/Weather-icons/Wind_speed.png",
+        "./assets/Weather-icons/temperature.png",
+        "./assets/Weather-icons/Precipitation.png",
+        "./assets/Weather-icons/Rain.png",
+        "./assets/Weather-icons/Snow-fall.png",
+        "./assets/Weather-icons/Wind_speed.png",
     ]
     function Render_daily_weather_box() {
         for (let index = 0; index < All_days.length; index++) {
@@ -381,7 +381,7 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
                     <div className="daily-weather-data-items">
                         <div className="daily-weather-item">
                             <div className="weather-icon-with-item">
-                                <img src="./src/assets/Weather-icons/temperature.png" alt="" />
+                                <img src="./assets/Weather-icons/temperature.png" alt="" />
                                 <p>Temperature</p>
                             </div>
                             <div className="daily-weather-fetched-data">
@@ -390,7 +390,7 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
                         </div>
                         <div className="daily-weather-item">
                             <div className="weather-icon-with-item">
-                                <img src="./src/assets/Weather-icons/Precipitation.png" alt="" />
+                                <img src="./assets/Weather-icons/Precipitation.png" alt="" />
                                 <p>Precipitation</p>
                             </div>
                             <div className="daily-weather-fetched-data">
@@ -399,7 +399,7 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
                         </div>
                         <div className="daily-weather-item">
                             <div className="weather-icon-with-item">
-                                <img src="./src/assets/Weather-icons/Rain.png" alt="" />
+                                <img src="./assets/Weather-icons/Rain.png" alt="" />
                                 <p>Rain</p>
                             </div>
                             <div className="daily-weather-fetched-data">
@@ -408,7 +408,7 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
                         </div>
                         <div className="daily-weather-item">
                             <div className="weather-icon-with-item">
-                                <img src="./src/assets/Weather-icons/Snow-fall.png" alt="" />
+                                <img src="./assets/Weather-icons/Snow-fall.png" alt="" />
                                 <p>Snow Fall</p>
                             </div>
                             <div className="daily-weather-fetched-data">
@@ -417,7 +417,7 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
                         </div>
                         <div className="daily-weather-item">
                             <div className="weather-icon-with-item">
-                                <img src="./src/assets/Weather-icons/Wind_speed.png" alt="" />
+                                <img src="./assets/Weather-icons/Wind_speed.png" alt="" />
                                 <p>Wind Speed</p>
                             </div>
                             <div className="daily-weather-fetched-data">
