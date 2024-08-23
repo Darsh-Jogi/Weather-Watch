@@ -66,3 +66,47 @@ Weather-Watch features an interactive weather map with two map options Default a
 ### Screenshot 6
 ![rsz_1whatsapp_image_2024-08-23_at_51337_pm](https://github.com/user-attachments/assets/6ce75b13-d84d-4ccb-8f6d-019410533a68)
 
+
+# Technology Stack
+
+| Technology | Type | Description |
+|---|---|---|
+React.js | Frontend Framework | JavaScript library for building user interfaces, primarily used to build the main structure of the Weather-Watch app.
+Swiper.js | JavaScript Library | Modern touch slider library used for creating responsive carousels in the app.
+OWL Carousel | JavaScript Library | Touch-enabled jQuery plugin that lets you create responsive carousel sliders.
+Moment.js | JavaScript Library |  Library for parsing, validating, manipulating, and displaying dates and times in JavaScript.
+jQuery| JavaScript Library	|  fast, small, and feature-rich JavaScript library, used for simplifying DOM manipulation.
+Leaflet	| Maps Integration | An open-source JavaScript library for mobile-friendly interactive maps.
+React Leaflet | Maps Integration |A React wrapper for Leaflet, allowing the integration of interactive maps in the React app.
+Google Fonts API | Fonts & Icons |  Library of free and open-source web fonts used to enhance typography in the app.
+Font Awesome | Fonts & Icons |  Popular icon set and toolkit used for integrating scalable vector icons in the app.
+Vite - React | Build Tool | Next-generation frontend build tool used for faster and leaner development of the React app.
+OpenMeteo API | Weather Data API | Free weather API used to fetch current weather, daily, and hourly forecast data.
+OpenWeatherMap API | Weather Data API | Widely used weather API for additional weather data and map integration in the app.
+
+# Features and Description
+
+| Features | Description |
+|---|---|
+Latest Weather Data	| Displays the most recent weather information for a user-selected location, providing current temperature, humidity, and weather conditions.
+Daily Weather Forecast | Provides daily weather predictions, including temperature highs and lows, precipitation chances, and more, for up to 7 days ahead.
+Hourly Weather Forecast	| Shows an hour-by-hour breakdown of weather conditions, including temperature, wind speed, and precipitation, to help users plan their day effectively.
+Interactive Weather Maps | Offers two map options: Default and Satellite, allowing users to visually explore weather patterns across different regions.
+Multiple Weather Layers	| Includes six weather layers: Default, Temperature, Precipitation, Clouds, Sea-Level Pressure, and Wind Speed, giving users detailed visual insights into various weather parameters.
+Responsive Design	Fully | Responsive layout that ensures the website is user-friendly and accessible on devices of all sizes, from smartphones to desktops.
+Easy Location Search | Allows users to quickly search for and switch between different locations to view the weather data of their choice.
+Modern UI/UX	| Clean, intuitive, and modern user interface with smooth transitions and easy navigation, enhancing the overall user experience.
+Free Weather Data	| Utilizes free APIs to fetch all weather data, making the app accessible without any subscription or cost.
+Open Source	| The project is open source, allowing others to contribute, modify, and enhance its features.
+
+# Contribution and Feedback
+
+We welcome contributions and feedback to enhance Weather-Watch. If you have any ideas, improvements, or encounter any issues, please feel free to contribute or share your feedback. Simply fork the repository, make your changes, and submit a pull request. For any feedback, you can also open an issue or reach out via the contact details provided below.
+
+# Contact Information
+
+If you have any questions, suggestions, or just want to say hello, feel free to reach out to me! I would love to hear your thoughts and feedback.
+
+Email : darshjogi001@gmail.com
+
+LinkedIn : [Darsh Jogi](https://www.linkedin.com/in/darsh-jogi-info/)
