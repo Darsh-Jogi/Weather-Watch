@@ -1,10 +1,5 @@
 import Current_location_data from "./current-location-data"
 function CurrentWeather({ Current_weather_data_obj, location_deatils }) {
-
-
-    // console.log("this is the inside the CurreWeather Component and the Current_weather_Data_obj (object as prop) is")
-    // console.log(location_deatils)
-
     let Current_weather_items = [
         {
             Item_name: "Temperature",

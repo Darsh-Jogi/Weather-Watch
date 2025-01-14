@@ -78,11 +78,6 @@ function WeatherDetails({ selected_Location_data_obj, location_deatils_obj, Map_
         }
 
         set_current_weather_data(Display_current_weather_data_obj)
-
-        // console.log("this is the current data of selected location on search")
-        // console.log(Current_data_parse)
-        // console.log("and this is the Display_current_weather_data_obj")
-        // console.log(Display_current_weather_data_obj)
         return Current_data_parse
     }
 

@@ -720,7 +720,6 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
                 if (count_obj["Rain"] > 167) {
                     clearInterval(intervalId_obj["rain"]);
                     intervalId_obj["rain"] = null;
-                    // console.log("Interval cleared.");
                     return;
                 }
 
@@ -737,7 +736,6 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
 
             if (!intervalId_obj["rain"]) {
                 intervalId_obj["rain"] = setInterval(display_data, 2000);
-                // console.log("Interval started.");
             }
         }
         else if (weather_data_type == "Sealevel_Pressure") {
@@ -747,7 +745,6 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
                 if (count_obj["Sealevel_Pressure"] > 167) {
                     clearInterval(intervalId_obj["sealevel_pressure"]);
                     intervalId_obj["sealevel_pressure"] = null;
-                    // console.log("Interval cleared.");
                     return;
                 }
 
@@ -764,7 +761,6 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
 
             if (!intervalId_obj["sealevel_pressure"]) {
                 intervalId_obj["sealevel_pressure"] = setInterval(display_data, 2000);
-                // console.log("Interval started.");
             }
         }
         else if (weather_data_type == "Relative-Humidity") {
@@ -774,7 +770,6 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
                 if (count_obj["Relative_humidity"] > 167) {
                     clearInterval(intervalId_obj["relative_humidity"]);
                     intervalId_obj["relative_humidity"] = null;
-                    // console.log("Interval cleared.");
                     return;
                 }
 
@@ -791,7 +786,6 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
 
             if (!intervalId_obj["relative_humidity"]) {
                 intervalId_obj["relative_humidity"] = setInterval(display_data, 2000);
-                // console.log("Interval started.");
             }
         }
         else if (weather_data_type == "Snowfall") {
@@ -801,7 +795,6 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
                 if (count_obj["snowfall"] > 167) {
                     clearInterval(intervalId_obj["snowfall"]);
                     intervalId_obj["snowfall"] = null;
-                    // console.log("Interval cleared.");
                     return;
                 }
 
@@ -818,7 +811,6 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
 
             if (!intervalId_obj["snowfall"]) {
                 intervalId_obj["snowfall"] = setInterval(display_data, 2000);
-                // console.log("Interval started.");
             }
         }
         else if (weather_data_type == "Surface-Pressure") {
@@ -828,7 +820,6 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
                 if (count_obj["surface_pressure"] > 167) {
                     clearInterval(intervalId_obj["surface_pressure"]);
                     intervalId_obj["surface_pressure"] = null;
-                    // console.log("Interval cleared.");
                     return;
                 }
 
@@ -845,7 +836,6 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
 
             if (!intervalId_obj["surface_pressure"]) {
                 intervalId_obj["surface_pressure"] = setInterval(display_data, 2000);
-                // console.log("Interval started.");
             }
         }
         else if (weather_data_type == "Wind-Speed") {
@@ -855,7 +845,6 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
                 if (count_obj["wind_speed"] > 167) {
                     clearInterval(intervalId_obj["wind_speed"]);
                     intervalId_obj["wind_speed"] = null;
-                    // console.log("Interval cleared.");
                     return;
                 }
 
@@ -872,7 +861,6 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
 
             if (!intervalId_obj["wind_speed"]) {
                 intervalId_obj["wind_speed"] = setInterval(display_data, 2000);
-                // console.log("Interval started.");
             }
         }
         else if (weather_data_type == "Wind-Direction") {
@@ -882,7 +870,6 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
                 if (count_obj["wind_direction"] > 167) {
                     clearInterval(intervalId_obj["wind_direction"]);
                     intervalId_obj["wind_direction"] = null;
-                    // console.log("Interval cleared.");
                     return;
                 }
 
@@ -899,7 +886,6 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
 
             if (!intervalId_obj["wind_direction"]) {
                 intervalId_obj["wind_direction"] = setInterval(display_data, 2000);
-                // console.log("Interval started.");
             }
         }
     }
@@ -909,77 +895,66 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
             if (intervalId_obj["temperature"]) {
                 clearInterval(intervalId_obj["temperature"]);
                 intervalId_obj["temperature"] = null;
-                // console.log("Interval stopped.");
             }
         }
         else if (weather_data_type == "Cloud-Cover") {
             if (intervalId_obj["cloud_cover"]) {
                 clearInterval(intervalId_obj["cloud_cover"]);
                 intervalId_obj["cloud_cover"] = null;
-                // console.log("Interval stopped.");
             }
         }
         else if (weather_data_type == "Cloud-Cover-High") {
             if (intervalId_obj["cloud_cover_high"]) {
                 clearInterval(intervalId_obj["cloud_cover_high"]);
                 intervalId_obj["cloud_cover_high"] = null;
-                // console.log("Interval stopped.");
             }
         }
         else if (weather_data_type == "Dew-Point") {
             if (intervalId_obj["dew_point"]) {
                 clearInterval(intervalId_obj["dew_point"]);
                 intervalId_obj["dew_point"] = null;
-                // console.log("Interval stopped.");
             }
         }
         else if (weather_data_type == "Rain") {
             if (intervalId_obj["rain"]) {
                 clearInterval(intervalId_obj["rain"]);
                 intervalId_obj["rain"] = null;
-                // console.log("Interval stopped.");
             }
         }
         else if (weather_data_type == "Sealevel_Pressure") {
             if (intervalId_obj["sealevel_pressure"]) {
                 clearInterval(intervalId_obj["sealevel_pressure"]);
                 intervalId_obj["sealevel_pressure"] = null;
-                // console.log("Interval stopped.");
             }
         }
         else if (weather_data_type == "Relative-Humidity") {
             if (intervalId_obj["relative_humidity"]) {
                 clearInterval(intervalId_obj["relative_humidity"]);
                 intervalId_obj["relative_humidity"] = null;
-                // console.log("Interval stopped.");
             }
         }
         else if (weather_data_type == "Snowfall") {
             if (intervalId_obj["snowfall"]) {
                 clearInterval(intervalId_obj["snowfall"]);
                 intervalId_obj["snowfall"] = null;
-                // console.log("Interval stopped.");
             }
         }
         else if (weather_data_type == "Surface-Pressure") {
             if (intervalId_obj["surface_pressure"]) {
                 clearInterval(intervalId_obj["surface_pressure"]);
                 intervalId_obj["surface_pressure"] = null;
-                // console.log("Interval stopped.");
             }
         }
         else if (weather_data_type == "Wind-Speed") {
             if (intervalId_obj["wind_speed"]) {
                 clearInterval(intervalId_obj["wind_speed"]);
                 intervalId_obj["wind_speed"] = null;
-                // console.log("Interval stopped.");
             }
         }
         else if (weather_data_type == "Wind-Direction") {
             if (intervalId_obj["wind_direction"]) {
                 clearInterval(intervalId_obj["wind_direction"]);
                 intervalId_obj["wind_direction"] = null;
-                // console.log("Interval stopped.");
             }
         }
     };
@@ -997,7 +972,6 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
 
             if (!intervalId_obj["temperature"]) {
                 intervalId_obj["temperature"] = setInterval(display_data, 2000);
-                // console.log("Interval started.");
             }
         }
 
@@ -1011,7 +985,6 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
 
             if (!intervalId_obj["cloud_cover"]) {
                 intervalId_obj["cloud_cover"] = setInterval(display_data, 2000);
-                // console.log("Interval started.");
             }
         }
 
@@ -1025,7 +998,6 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
 
             if (!intervalId_obj["cloud_cover_high"]) {
                 intervalId_obj["cloud_cover_high"] = setInterval(display_data, 2000);
-                // console.log("Interval started.");
             }
         }
 
@@ -1039,7 +1011,6 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
 
             if (!intervalId_obj["dew_point"]) {
                 intervalId_obj["dew_point"] = setInterval(display_data, 2000);
-                // console.log("Interval started.");
             }
         }
 
@@ -1053,7 +1024,6 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
 
             if (!intervalId_obj["rain"]) {
                 intervalId_obj["rain"] = setInterval(display_data, 2000);
-                // console.log("Interval started.");
             }
         }
 
@@ -1067,7 +1037,6 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
 
             if (!intervalId_obj["sealevel_pressure"]) {
                 intervalId_obj["sealevel_pressure"] = setInterval(display_data, 2000);
-                // console.log("Interval started.");
             }
         }
 
@@ -1081,7 +1050,6 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
 
             if (!intervalId_obj["relative_humidity"]) {
                 intervalId_obj["relative_humidity"] = setInterval(display_data, 2000);
-                // console.log("Interval started.");
             }
         }
 
@@ -1095,7 +1063,6 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
 
             if (!intervalId_obj["snowfall"]) {
                 intervalId_obj["snowfall"] = setInterval(display_data, 2000);
-                // console.log("Interval started.");
             }
         }
 
@@ -1109,7 +1076,6 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
 
             if (!intervalId_obj["surface_pressure"]) {
                 intervalId_obj["surface_pressure"] = setInterval(display_data, 2000);
-                // console.log("Interval started.");
             }
         }
 
@@ -1123,7 +1089,6 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
 
             if (!intervalId_obj["wind_speed"]) {
                 intervalId_obj["wind_speed"] = setInterval(display_data, 2000);
-                // console.log("Interval started.");
             }
         }
 
@@ -1137,7 +1102,6 @@ function DailyandHourlyWeather({ selected_weather_obj_data, current_location_obj
 
             if (!intervalId_obj["wind_direction"]) {
                 intervalId_obj["wind_direction"] = setInterval(display_data, 2000);
-                // console.log("Interval started.");
             }
         }
 
